@@ -8,6 +8,7 @@ import {
   workImgSix,
   workImgSeven,
   workImgEight,
+  GuessNumber,
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -20,9 +21,9 @@ const Projects = () => {
         <div className="px-6">
           <a href="https://guess-the-number-sable-sigma.vercel.app/">
           <ProjectsCard
-            title="Blog Website"
-            category="Website"
-            image={workImgThree}
+            title="Guess Number Game"
+            category="Game"
+            image={GuessNumber}
           />
           </a>
           <ProjectsCard
